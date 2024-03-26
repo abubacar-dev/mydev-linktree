@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Inter", sans-serif;
+    --font-color: #FFFFFF;
+    --bg-color: #121214;
+    --bg-link-color: #1E1E1E;
+    --border-color: #888889;
+}
+
+.light {
+    --font-color: #000000;
+    --bg-color: #E3E3E7;
+    --bg-link-color: #D9D9D9;
+    --border-color: #121214;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font);
+}
